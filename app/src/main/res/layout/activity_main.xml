@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_distance"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:text="@string/btn_distance"
+        android:textColor="#000000"
+        android:background="@android:color/white"
+        android:textSize="45sp"/>
+
+    <Button
+        android:id="@+id/btn_surface"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:text="@string/btn_surface"
+        android:textColor="#000000"
+        android:background="@android:color/white"
+        android:textSize="45sp"/>
+
+    <Button
+        android:id="@+id/btn_volume"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:text="@string/btn_volume"
+        android:textColor="#000000"
+        android:background="@android:color/white"
+        android:textSize="45sp"/>
+
+    <Button
+        android:id="@+id/btn_masse"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:text="@string/btn_masse"
+        android:textColor="#000000"
+        android:background="@android:color/white"
+        android:textSize="45sp"/>
+
+    <Button
+        android:id="@+id/btn_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:text="@string/btn_temperature"
+        android:textColor="#000000"
+        android:background="@android:color/white"
+        android:textSize="45sp"/>
+
+    <Button
+        android:id="@+id/btn_money"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:text="@string/btn_argent"
+        android:textColor="#000000"
+        android:background="@android:color/white"
+        android:textSize="45sp"/>
+
+</LinearLayout>
+
+</ScrollView>

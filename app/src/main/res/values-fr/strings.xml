@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertisseur US-FR</string>
+    <string name="btn_distance">Distance</string>
+    <string name="btn_surface">Surface</string>
+    <string name="btn_volume">Volume</string>
+    <string name="btn_masse">Masse</string>
+    <string name="btn_temperature">Temperature</string>
+    <string name="btn_submit">Valider</string>
+    <string name="btn_argent">Monaie</string>
+    <string name="tv_surface">Surface</string>
+    <string name="tv_distance">Distance</string>
+    <string name="btn_deletefr">Supprimer FR</string>
+    <string name="btn_deleteus">Supprimer US</string>
+    <string name="tv_volume">Volume</string>
+    <string name="tv_weight">Masse</string>
+    <string name="tv_temperature">Temperature</string>
+    <string name="tv_money">Monaie</string>
+
+    <string-array name="distanceSpinnerUnitsFRName">
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+    </string-array>
+    <string-array name="distanceSpinnerUnitsUSName">
+        <item>in</item>
+        <item>ft</item>
+        <item>yd</item>
+        <item>mi</item>
+    </string-array>
+
+    <string-array name="surfaceSpinnerUnitsFRName">
+        <item>km²</item>
+        <item>m²</item>
+        <item>cm²</item>
+        <item>ha</item>
+        <item>a</item>
+    </string-array>
+    <string-array name="surfaceSpinnerUnitsUSName">
+        <item>in²</item>
+        <item>ft²</item>
+        <item>yd²</item>
+        <item>mi²</item>
+        <item>acres</item>
+    </string-array>
+
+    <string-array name="volumeSpinnerUnitsFRName">
+        <item>km³</item>
+        <item>m³</item>
+        <item>cm³</item>
+        <item>L</item>
+        <item>cl</item>
+    </string-array>
+    <string-array name="volumeSpinnerUnitsUSName">
+        <item>tsp</item>
+        <item>tbsp</item>
+        <item>cp</item>
+        <item>pt</item>
+        <item>qt</item>
+        <item>gal</item>
+    </string-array>
+
+    <string-array name="weightSpinnerUnitsFRName">
+        <item>t</item>
+        <item>kg</item>
+        <item>g</item>
+    </string-array>
+    <string-array name="weightSpinnerUnitsUSName">
+        <item>lb</item>
+        <item>oz</item>
+        <item>ton</item>
+    </string-array>
+</resources>
